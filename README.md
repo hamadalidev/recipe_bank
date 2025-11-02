@@ -135,6 +135,11 @@ After running the seeders, you can use these test accounts:
 http://127.0.0.1:8000/docs
 ```
 
+## Demo Video
+```
+https://drive.google.com/file/d/1b_vGE9LWpd343IjyFBMdFeSlaZ6jFyX0/view?usp=sharing
+```
+
 ### Base URL
 ```
 http://localhost:8000/api/v1

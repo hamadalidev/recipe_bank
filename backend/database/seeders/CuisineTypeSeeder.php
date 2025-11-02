@@ -57,7 +57,10 @@ class CuisineTypeSeeder extends Seeder
         ];
 
         foreach ($cuisineTypes as $cuisineType) {
-            CuisineType::create($cuisineType);
+            CuisineType::updateOrCreate(
+                ['name' => $cuisineType['name']],
+                $cuisineType
+            );
         }
     }
 }

@@ -16,6 +16,10 @@ return [
         'owner' => [
             'list-recipes',
             'add-recipe',
+            'list-recipes',
+            'add-recipe',
+            'edit-recipe',
+            'delete-recipe',
         ],
     ],
 ];
