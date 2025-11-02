@@ -1,0 +1,64 @@
+name: 'Cuisine Types'
+description: |-
+
+  APIs for managing cuisine types
+endpoints:
+  -
+    httpMethods:
+      - GET
+    uri: api/v1/cuisine-types/dropdown
+    metadata:
+      groupName: 'Cuisine Types'
+      groupDescription: |-
+
+        APIs for managing cuisine types
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'Get active cuisine types for dropdown'
+      description: |-
+        Get a simple list of active cuisine types for use in recipe creation dropdowns.
+        No pagination, returns all active cuisine types.
+      authenticated: false
+      deprecated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses:
+      -
+        status: 200
+        content: |-
+          {
+            "success": true,
+            "message": "Success",
+            "data": [
+              {
+                "id": 1,
+                "name": "Italian"
+              },
+              {
+                "id": 2,
+                "name": "Chinese"
+              },
+              {
+                "id": 3,
+                "name": "Mexican"
+              }
+            ]
+          }
+        headers: []
+        description: success
+        custom: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
